@@ -1,8 +1,10 @@
 import * as React from 'react';
-import Home from './scr/screens/Home';
+import Home from './src/screens/Home';
 
 function App() {
-  return <Home />;
+  return (
+    <Home/>
+  );
 }
 
 export default App;
