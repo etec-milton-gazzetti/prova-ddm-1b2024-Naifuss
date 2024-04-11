@@ -1,6 +1,13 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 
-function Pagina(){
-    <Text>Texto</Text>
+export default function Pagina() {
+
+  return (
+      <View>
+        <Text>
+            Pagina
+        </Text>
+      </View>
+  );
 }

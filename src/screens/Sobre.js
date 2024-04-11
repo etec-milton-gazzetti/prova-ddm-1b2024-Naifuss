@@ -1,6 +1,13 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 
-function Sobre(){
-    <Text>Sobre</Text>
+export default function Sobre() {
+
+  return (
+      <View>
+        <Text>
+           Sobre
+        </Text>
+      </View>
+  );
 }

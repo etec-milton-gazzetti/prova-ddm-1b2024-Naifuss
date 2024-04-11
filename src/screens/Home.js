@@ -1,6 +1,13 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 
-function Home(){
-    <Text>Texto</Text>
+export default function Home() {
+
+  return (
+      <View>
+        <Text>
+            Home
+        </Text>
+      </View>
+  );
 }
