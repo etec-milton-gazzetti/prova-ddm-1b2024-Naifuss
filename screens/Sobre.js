@@ -11,9 +11,9 @@ export default function Home({ navigation }) {
     <ImageBackground source={imagem} style={styles.container} resizeMode="cover">
       <Text style={styles.titulo}>Sobre</Text>
       <View style={{ alignItems: 'center' }}>
-        <Text style={styles.texto}>Nome: Gabriel Henrique</Text>
-        <Text style={styles.texto}>Sala: 3º Info</Text>
+        <Text style={styles.texto}>Nome: Gabriel Henrique Lima</Text>
         <Text style={styles.texto}>RM: 07607</Text>
+        <Text style={styles.textoemail}>E-mail: gabriel.pardini2@etec.sp.gov.br</Text>
       </View>
       
       <TouchableOpacity onPress={() => navigation.goBack()} style={styles.botao}>
@@ -35,14 +35,14 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     fontSize: 50,
     color: 'white',
-    fontFamily: 'Fonte'
+    
   },
   texto: {
     paddingTop: 10,
     alignSelf: 'center',
     fontSize: 20,
     color: 'black',
-    fontFamily: 'Fonte'
+   
   },
   botao: {
     backgroundColor: '#DB2A2A',
@@ -50,12 +50,19 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 10,
     marginTop: 20,
-    fontFamily: 'Fonte'
+    
   },
   textoBotao: {
     fontSize: 20,
     fontWeight: 'bold',
     color: 'white',
-    fontFamily: 'Fonte'
+    
   },
+  textoemail:{
+    paddingTop: 10,
+    alignSelf: 'center',
+    fontSize: 18,
+    color: 'black',
+
+  }
 });
